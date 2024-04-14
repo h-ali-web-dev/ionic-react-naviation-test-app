@@ -1,0 +1,9 @@
+#article-card {
+  background-color: aqua;
+}
+
+@media screen and (min-width: 480px) {
+  #article-card {
+    background-color: blue;
+  }
+}

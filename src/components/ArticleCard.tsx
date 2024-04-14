@@ -1,4 +1,4 @@
-// import "./ExploreContainer.css";
+import "./ArticleCard.css";
 
 import {
   IonCard,
@@ -10,7 +10,7 @@ import {
 
 export default function ArticleCard() {
   return (
-    <IonCard>
+    <IonCard id="article-card">
       <img
         alt="Silhouette of mountains"
         src="https://ionicframework.com/docs/img/demos/card-media.png"

@@ -22,8 +22,10 @@ const DiscoverTab: React.FC = () => {
             <IonTitle size="large">Discover</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Discover page" />
-        <ArticleCard />
+        {/* <ExploreContainer name="Discover page" /> */}
+        <div id="article-card-container">
+          <ArticleCard />
+        </div>
       </IonContent>
     </IonPage>
   );

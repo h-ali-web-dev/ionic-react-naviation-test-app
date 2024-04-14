@@ -1,6 +1,8 @@
 import {
+  IonButtons,
   IonContent,
   IonHeader,
+  IonMenuButton,
   IonPage,
   IonTitle,
   IonToolbar,
@@ -12,6 +14,9 @@ const ReadingListTab: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+          <IonButtons slot="start">
+            <IonMenuButton id="main-menu"></IonMenuButton>
+          </IonButtons>
           <IonTitle>Reading List</IonTitle>
         </IonToolbar>
       </IonHeader>
