@@ -14,7 +14,7 @@ import ExploreContainer from "../components/ExploreContainer";
 const ArchiveListTab: React.FC = () => {
   return (
     <IonPage>
-      <IonSplitPane when="xs" contentId="main">
+      <IonSplitPane when="md" contentId="main">
         <IonMenu contentId="main">
           <IonHeader>
             <IonToolbar color="tertiary">

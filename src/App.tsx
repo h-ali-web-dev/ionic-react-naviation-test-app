@@ -19,8 +19,7 @@ import "@ionic/react/css/display.css";
 
 /* Theme variables */
 import "./theme/variables.css";
-import MobileLayout from "./layout/Layout";
-import DesktopLayout from "./layout/DesktopLayout";
+import TabLayout from "./layout/TabLayout";
 import MenuLayout from "./layout/MenuLayout";
 
 setupIonicReact();
@@ -28,8 +27,7 @@ setupIonicReact();
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
-      <MobileLayout />
-      {/* <DesktopLayout /> */}
+      <TabLayout />
       <MenuLayout />
     </IonReactRouter>
   </IonApp>
